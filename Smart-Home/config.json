@@ -1,0 +1,103 @@
+{
+    "episodes": 25000,
+    "agents": [
+        {
+            "name": "REFG",
+            "description": "Refrigerator",
+            "type": "NS"
+        },
+        {
+            "name": "AS",
+            "description": "Alert Signal",
+            "type": "NS"
+        },
+        {
+            "name": "AC1",
+            "description": "Air Conditioner 1",
+            "type": "PS",
+            "power_ratings": [
+                0.7,
+                0.8,
+                0.9,
+                1.0,
+                1.1,
+                1.2,
+                1.3,
+                1.4
+            ]
+        },
+        {
+            "name": "AC2",
+            "description": "Air Conditioner 2",
+            "type": "PS",
+            "power_ratings": [
+                0.7,
+                0.8,
+                0.9,
+                1.0,
+                1.1,
+                1.2,
+                1.3,
+                1.4
+            ]
+        },
+        {
+            "name": "H",
+            "description": "Heater",
+            "type": "PS",
+            "power_ratings": [
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9,
+                1.0,
+                1.1,
+                1.2,
+                1.3,
+                1.4,
+                1.5
+            ]
+        },
+        {
+            "name": "L1",
+            "description": "Light 1",
+            "type": "PS",
+            "power_ratings": [
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6
+            ]
+        },
+        {
+            "name": "L2",
+            "description": "Light 2",
+            "type": "PS",
+            "power_ratings": [
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6
+            ]
+        },
+        {
+            "name": "WM",
+            "description": "Washing Machine",
+            "type": "TS"
+        },
+        {
+            "name": "DW",
+            "description": "Dish Washer",
+            "type": "TS"
+        },
+        {
+            "name": "EV",
+            "description": "Electric Vehicle",
+            "type": "EV",
+            "power_ratings": [0, 3, 6]
+        }
+    ]
+}
